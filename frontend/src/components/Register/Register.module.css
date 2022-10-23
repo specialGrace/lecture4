@@ -1,0 +1,22 @@
+.formWrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formWrapper .form{
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.form .inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}

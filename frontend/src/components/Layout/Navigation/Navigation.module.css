@@ -1,0 +1,16 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navContainer ul li{
+   margin-right: 20px;
+}

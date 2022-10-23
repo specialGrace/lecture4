@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+.left {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.right {
+    flex: 1
+}
+
+.right .form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: darkblue;
+}
